@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import "reset.css";
+@import "variables.css";
 @import "status-bar.css";
 body {
     font-family:'Pacifico', cursive; ;
@@ -37,4 +38,7 @@ body {
 
 #login-form input::placeholder {
     color: rgba(0,0,0, 0.4)
+}
+#login-form input:focus {
+    border-color: var(--yellow);
 }
