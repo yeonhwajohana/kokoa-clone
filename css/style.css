@@ -9,7 +9,9 @@
 
 /*Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
-    font-family:'Pacifico', cursive; ;
+    font-family:'Pacifico', cursive; 
+    color: #2e363e;
 }
