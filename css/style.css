@@ -16,6 +16,8 @@
 body {
     font-family:'Pacifico', cursive; 
     color: #2e363e;
+    height: 1000px;
+    background-color: #ffe5e9;
 }
 
 .main-screen {
