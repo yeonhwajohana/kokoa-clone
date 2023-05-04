@@ -80,9 +80,6 @@
     border-top-left-radius: 15px;
 }
 
-.message-row--own .message__time {
-    order: 0;
-}
-.message-row--own .message__bubble {
-    order: 1;
+.message-row--own .message__info {
+    flex-direction: row-reverse;
 }
